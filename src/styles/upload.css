@@ -1,0 +1,123 @@
+.upload-page {
+    padding-bottom: var(--spacing-2xl);
+}
+
+.upload-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl);
+}
+
+.upload-info h2 {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-lg);
+}
+
+.step {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.step-number {
+    background-color: var(--primary-color);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.step h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.step p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.safety-note {
+    background-color: #EFF6FF;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    color: #1E3A8A;
+    font-size: 0.9rem;
+    margin-top: var(--spacing-xl);
+}
+
+.upload-form-container {
+    background-color: white;
+    padding: var(--spacing-xl);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.file-upload-area {
+    margin-bottom: var(--spacing-lg);
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    display: block;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xl);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.file-label:hover {
+    border-color: var(--primary-color);
+    background-color: #F0FDF4;
+}
+
+.file-placeholder,
+.file-selected {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.file-selected {
+    color: var(--primary-color);
+}
+
+.sub-text {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.change-text {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: var(--spacing-md);
+}
+
+.upload-success {
+    text-align: center;
+    padding: var(--spacing-2xl) 0;
+}
+
+@media (max-width: 768px) {
+    .upload-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
