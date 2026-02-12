@@ -8,7 +8,7 @@
     overflow: hidden;
 
     /* Background Image */
-    background: url('src/assets/images/high-angle-arrangement-medical-objects-green-background.jpg') center center / cover no-repeat;
+    background: url('/images/high-angle-arrangement-medical-objects-green-background.jpg') center center / cover no-repeat;
 }
 
 /* Dark Overlay */

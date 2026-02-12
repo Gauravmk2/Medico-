@@ -15,10 +15,10 @@ const Home = () => {
     ];
 
     const featuredProducts = [
-        { id: 1, name: 'Paracetamol 500mg', price: 50, image: 'src/assets/images/Paracetamol-500-mg-Tablet_1.webp' },
-        { id: 2, name: 'Vitamin C Tablets', price: 120, image: 'src/assets/images/vitamin-c-500mg-chewable-tablets-479.jpg' },
-        { id: 3, name: 'Cough Syrup', price: 85, image: 'src/assets/images/cough-syrup-pack-of-150ml--257.jpg' },
-        { id: 4, name: 'Antiseptic Liquid', price: 110, image: 'src/assets/images/10640-500x500.jfif' },
+        { id: 1, name: 'Paracetamol 500mg', price: 50, image: '/images/Paracetamol-500-mg-Tablet_1.webp' },
+        { id: 2, name: 'Vitamin C Tablets', price: 120, image: '/images/vitamin-c-500mg-chewable-tablets-479.jpg' },
+        { id: 3, name: 'Cough Syrup', price: 85, image: '/images/cough-syrup-pack-of-150ml--257.jpg' },
+        { id: 4, name: 'Antiseptic Liquid', price: 110, image: '/images/10640-500x500.jfif' },
     ];
 
     return (
